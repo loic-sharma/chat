@@ -1,6 +1,6 @@
 # Chat
 
-A simple chat client using node.
+A simple NodeJS chat client.
 
 ## Installation
 
