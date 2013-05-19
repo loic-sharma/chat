@@ -1,0 +1,8 @@
+div#login {margin-top:50px;margin-left:100px;}
+div#chatroom {margin-top:50px;margin-left:100px;width:600px;}
+div#chatroom div#messages {width:450px;float:left;}
+div#chatroom div#message span.notice {font-style:italic;}
+div#chatroom div#message span.username {font-weight:bold;}
+div#chatroom div#users {width:100px;float:right;padding-right:50px;}
+div#chatroom p.user {height:5px;font-weight:bold;}
+div#chatroom input[name=message] {margin-top:50px;width: 100%;}

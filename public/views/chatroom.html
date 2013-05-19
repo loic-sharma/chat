@@ -1,0 +1,31 @@
+<html>
+<head>
+	<link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+	<div id="login">
+		<h1>Enter Chat</h1>
+
+		<label for="username">
+			Username:
+
+			<input type="text" id="username">
+		</label>
+	</div>
+
+	<div id="chatroom" style="display:hide;">
+		<h1>Chat Room</h1>
+
+		<div id="messages"></div>
+
+		<div id="users"></div>
+
+		<input type="text" name="message" id="message">
+	</div>
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="/static/js/chatroom.js" type="text/javascript"></script>
+</body>
+</html>
